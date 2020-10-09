@@ -13,6 +13,14 @@
 .red {
   background-color: red;
 }
+
+.mt {
+  margin-top: 5%;
+}
+
+.mb {
+  margin-bottom: 5%;
+}
 /* /Class Utility */
 
 .product {
@@ -31,4 +39,9 @@
    bottom: 5%;
    right: 50%;
    color: red;
+   display: none;
+ }
+
+ .product:hover .heart {
+   display: block;
  }
